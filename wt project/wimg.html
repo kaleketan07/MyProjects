@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Image gallery</title>
+<style>
+body
+{
+   background-image:url('black2.jpg');
+   color:white;
+ }
+
+    #slide
+    {
+        height: 393px;
+        width: 1139px;
+        margin-bottom: 10px;
+    }
+
+</style>
+<script type="text/javascript">
+var slideimages = new Array()
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "space1.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "space2.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "space3.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "space4.jpg"
+slideimages[4] = new Image()
+slideimages[4].src = "space5.jpg"
+slideimages[5] = new Image()
+slideimages[5].src = "space6.jpg"
+slideimages[6] = new Image()
+slideimages[6].src = "space7.jpg"
+slideimages[7] = new Image()
+slideimages[7].src = "space8.jpg"
+slideimages[8] = new Image()
+slideimages[8].src = "space9.jpg"
+
+</script>
+</head>
+<body>
+<div style=" height: 41px;"><p style="Text-align:center;">IMAGE GALLERY</p><a href="whome.html"><p style="Text-align:right">back</p></a></div>
+<div style="margin-top: 20px;margin-left:100px">
+<img src="space1.jpg" id="slide" align="center">
+<script type="text/javascript">
+var step=0
+function slideit()
+{
+ document.getElementById("slide").src = slideimages[step].src
+ if (step<8)
+  step++
+ else
+  step=0
+ setTimeout("slideit()",2000)
+}
+slideit()
+</script>
+</div>
+<div style="height: 47px; margin-top: 55px; Text-align:center">Copyrights Reserved</div>
+</body>
+</html>
