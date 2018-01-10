@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\ASPProject\ASPProject\bin\ASPProject.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\ASPProject\ASPProject\bin\ASPProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\ASPProject\ASPProject\obj\Debug\ASPProject.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\ASPProject\ASPProject\obj\Debug\ASPProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\ASPProject\ASPProject\obj\Debug\ASPProject.csprojResolveAssemblyReference.cache
